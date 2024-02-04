@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(186, 216, 228);
+  }
+
+  hr{
+    height: 0.6%;
+    background-color: whitesmoke;
+  
+  }
+  h3{
+    background: rgb(186, 216, 228);
+    color: rgb(215, 117, 65);
+    text-align: center;
+    font-size: 29px;
+  }
+  .wrapper{
+    
+    color: rgb(181, 179, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+ .buttons{
+    gap: 48px;
+    display: flex;
+  }
+
+button{
+        height: 100px;
+        width: 100px;
+        font-size: 58px;
+        border-radius: 45px;
+        cursor: pointer;
+        
+}
+
+
+  .resultContainer {
+    font-size: 2.5rem;
+    text-align: center;
+
+    margin-top: 20px;
+    color: rgb(215, 117, 65);
+  }
+
+
+  button:hover{
+    transition: 0.2s;
+    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    color: #ffff;
+    text-shadow: 0px 0px 15px rgba(23, 156, 18, 0.425);
+    box-shadow: 0 0 20px #de2424;
+    scale: 1.2;
+    
+  }
+
+ #endGameButton:hover{
+    transition: 0.4s;
+    scale:0.8;
+    color: white;
+    text-shadow: 0px 0px 20px red(0,0,0,0.1);
+    box-shadow: 0 0px 15px red;
+ }
+
+
+ 
